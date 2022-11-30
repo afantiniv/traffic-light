@@ -1,12 +1,57 @@
+body{
+    margin: 0px;
+    background: linear-gradient(90deg, rgba(231,230,242,1) 0%, rgba(83,187,191,1) 35%, rgba(0,212,255,1) 100%);
+}
 
-/* 
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    border-radius: 40px;
+    margin-top: -60px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.post{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 20px;
+    height: 320px;
+    padding: 10px;
+}
 
-*/
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.red{
+    background-color: red;
+    color: rgba(255, 0, 0, 0.7)
+}
+
+.yellow{
+    background-color: yellow;
+    color: rgba(255, 255, 0, 0.7)
+}
+
+.green{
+    background-color: green;
+    color: rgba(0, 255, 0, 0.7)
+}
+
+.purple{
+    background-color: purple;
+    color: rgba(0255, 0, 255, 0.7)
+}
+
+
+.selected{
+    outline-color: rgb(213,223,32);
+    outline: 10px;
+    outline-style: solid;
+}
